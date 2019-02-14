@@ -16,6 +16,7 @@ int HardOpponent::decide(int currentNumber)
 	int remainder;
 	//Try to count to multiple of 4.
 	remainder = currentNumber % 4;
+	return 4 - remainder;
 	if (remainder == 1)
 	{
 		//Add three.
